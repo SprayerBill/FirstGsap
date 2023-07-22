@@ -1,0 +1,112 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  overflow: hidden;
+}
+#page1{
+  width: 100vw;
+  height: 100vh;
+  background: #EAE9E3;
+  position: relative;
+}
+#nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 450;
+}
+#nav img{
+    width: 10%;
+    margin-top: 40px;
+}
+#page1>h1{
+  font-size: 120px;
+  font-family: voyage;
+  font-weight: 350;
+  margin-left: 50px;
+}
+#page1>h2{
+  font-size: 120px;
+  font-family: voyage;
+  font-weight: 350;
+  margin-left: 350px;
+  line-height: 90px;
+  /* overflow: hidden; */
+}
+#page1>p{
+  font-family: voyage;
+  position: absolute;
+  right: 10%;
+  top: 26%;
+  width: 35%;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 310;
+  letter-spacing: 1.5px;
+}
+#two{
+  position: absolute;
+  bottom: 50px;
+  left: 30%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border: 1.5px solid #000;
+  rotate: -15deg;
+}
+#three{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: top;
+  border: 1.5px solid #000;
+  rotate: 10deg;
+}
+#four{
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  rotate: 90deg;
+  height: 8%;
+}
+span{
+  font-family: voyage;
+  width: max-content;
+  height: max-content;
+  display: inline-block;
+}
+#page1>h3{
+  margin-top: 300px;
+  margin-left: 80px;
+  font-size: 43px;
+  font-family: dancing script;
+  position: relative;
+}
+#page1>h3::before{
+  content: '(01)';
+  position: absolute;
+  top: -80%;
+}
+::-webkit-scrollbar{
+  display: none;
+}
